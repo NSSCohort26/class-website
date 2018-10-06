@@ -1,0 +1,24 @@
+.devIcons {
+	height: 250px;
+}
+.wrapper {
+    overflow: hidden; }
+  
+#devIcons {
+	background-image: url("../img/iconImage.png");
+	background-repeat: repeat-x;
+  -webkit-animation: slide 30s linear infinite;
+  -moz-animation: slide 30s linear infinite;
+  animation: slide 30s linear infinite;
+	width: 4800px;
+	height: 110px;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-2400px, 0, 0);
+  }
+}
