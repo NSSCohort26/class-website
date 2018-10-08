@@ -590,6 +590,10 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+.Names {
+  color: rgb(46, 46, 124);
+}
+
 .team-member p {
   margin-top: 0;
 }
