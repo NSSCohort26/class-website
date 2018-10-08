@@ -3,6 +3,7 @@ header.masthead {
   text-align: center;
   color: black;
   background-image: url('../img/header-bg.jpg');
+  opacity: 0.85;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -15,13 +16,17 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
+      color: #ffc107;
+      text-shadow: 3px 3px 4px black;
       @include serif-font;
     }
-    .intro-heading { 
+    .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
+      color: #ffc107;
+      text-shadow: 3px 3px 4px black;
       @include heading-font;
     }
   }
