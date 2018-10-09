@@ -182,6 +182,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 header.masthead .intro-text {
@@ -209,7 +211,7 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-header.masthead:hover {
+nav:hover ~ header.masthead {
   background-image: url("../img/fun.jpg");
 }
 
@@ -332,6 +334,12 @@ header.masthead:hover {
 
 .icon-color {
   color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.icon-color:hover {
+  color: #42d7f4;
 }
 
 @media (min-width: 767px) {

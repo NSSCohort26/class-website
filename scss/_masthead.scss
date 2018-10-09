@@ -8,6 +8,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  transition: .5s;
   .intro-text {
     padding-top: 250px;
     padding-bottom: 50px;
@@ -32,7 +33,7 @@ header.masthead {
   }
 }
 
-header.masthead:hover {
+nav:hover ~ header.masthead {
   background-image: url('../img/fun.jpg');
 }
 @media(min-width:768px) {

@@ -81,6 +81,11 @@
 
 .icon-color {
   color: black;
+  transition: 1s;
+}
+
+.icon-color:hover {
+  color: #42d7f4;
 }
 
 @media(min-width:767px) {
