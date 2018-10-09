@@ -259,7 +259,6 @@ header.masthead:hover {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -308,6 +307,16 @@ header.masthead:hover {
 
 #portfolio * {
   z-index: 2;
+}
+
+.img-flipX {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.img-flipY {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 
 @media (min-width: 767px) {
