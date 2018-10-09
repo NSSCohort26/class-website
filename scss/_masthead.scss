@@ -1,5 +1,6 @@
 // Styling for the masthead
 header.masthead {
+<<<<<<< HEAD
     text-align: center;
     color: black;
     background-image: url('../img/header-bg.jpg');
@@ -7,6 +8,46 @@ header.masthead {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+=======
+  text-align: center;
+  color: black;
+  background-image: url('../img/header-bg.jpg');
+  opacity: 0.85;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  transition: .5s;
+  .intro-text {
+    padding-top: 250px;
+    padding-bottom: 50px;
+    .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 25px;
+      color: #ffc107;
+      text-shadow: 3px 3px 4px black;
+      @include serif-font;
+    }
+    .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      color: #ffc107;
+      text-shadow: 3px 3px 4px black;
+      @include heading-font;
+    }
+  }
+}
+
+nav:hover ~ header.masthead {
+  background-image: url('../img/fun.jpg');
+}
+@media(min-width:768px) {
+  header.masthead {
+>>>>>>> origin/sd-fixes
     .intro-text {
       padding-top: 250px;
       padding-bottom: 50px;
