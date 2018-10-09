@@ -43,7 +43,7 @@
     .portfolio-caption {
       max-width: 400px;
       margin: 0 auto;
-      padding: 25px;
+      padding: 15px 25px 15px 25px;
       text-align: center;
       background-color: $white;
       h4 {
@@ -68,6 +68,19 @@
 
 .img-flipY {
   transform: scaleY(-1)
+}
+
+.rotate-icon:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+.middle-icon-margin {
+  margin: 0px 3%;
+}
+
+.icon-color {
+  color: black;
 }
 
 @media(min-width:767px) {
