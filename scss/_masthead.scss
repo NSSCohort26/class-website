@@ -1,14 +1,5 @@
 // Styling for the masthead
 header.masthead {
-<<<<<<< HEAD
-    text-align: center;
-    color: black;
-    background-image: url('../img/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-=======
   text-align: center;
   color: black;
   background-image: url('../img/header-bg.jpg');
@@ -47,7 +38,6 @@ nav:hover ~ header.masthead {
 }
 @media(min-width:768px) {
   header.masthead {
->>>>>>> origin/sd-fixes
     .intro-text {
       padding-top: 250px;
       padding-bottom: 50px;
@@ -93,3 +83,4 @@ nav:hover ~ header.masthead {
       }
     }
   }
+}

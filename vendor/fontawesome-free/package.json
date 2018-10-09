@@ -2,11 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.3.1",
-<<<<<<< HEAD
       "/home/shu/workspace/classWebsite/class-website"
-=======
-      "C:\\Users\\Seth\\Workspace\\class-website"
->>>>>>> origin/sd-fixes
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.3.1",
@@ -37,15 +33,10 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.3.1.tgz",
-<<<<<<< HEAD
   "_shasum": "5466b8f31c1f493a96754c1426c25796d0633dd9",
   "_shrinkwrap": null,
   "_spec": "@fortawesome/fontawesome-free@5.3.1",
   "_where": "/home/shu/workspace/classWebsite/class-website",
-=======
-  "_spec": "5.3.1",
-  "_where": "C:\\Users\\Seth\\Workspace\\class-website",
->>>>>>> origin/sd-fixes
   "author": {
     "email": "dave@fontawesome.com",
     "name": "Dave Gandy",
