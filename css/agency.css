@@ -241,6 +241,10 @@ nav:hover ~ header.masthead {
   text-transform: none;
 }
 
+#portfolio {
+  background-color: #E8F0F3;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -340,6 +344,19 @@ nav:hover ~ header.masthead {
 
 .icon-color:hover {
   color: #42d7f4;
+}
+
+.card-shadow {
+  -webkit-box-shadow: 5px 5px 15px #696969;
+  box-shadow: 5px 5px 15px #696969;
+}
+
+.modal-height {
+  height: 100vh !important;
+}
+
+.modal-image {
+  max-height: 62vh !important;
 }
 
 @media (min-width: 767px) {
