@@ -359,6 +359,13 @@ nav:hover ~ header.masthead {
   max-height: 62vh !important;
 }
 
+.modal-pic-bottom-border {
+  margin: auto;
+  border-top: .5px solid black;
+  padding-top: 20px;
+  width: 75%;
+}
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
