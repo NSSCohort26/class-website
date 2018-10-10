@@ -95,10 +95,18 @@
 
 .modal-height {
   height: 100vh !important;
+  overflow: hidden;
 }
 
 .modal-image {
   max-height: 62vh !important;
+}
+
+.modal-pic-bottom-border {
+  margin: auto;
+  border-top: .5px solid black;
+  padding-top: 20px;
+  width: 75%;
 }
 
 @media(min-width:767px) {
