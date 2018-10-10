@@ -216,6 +216,10 @@ nav:hover ~ header.masthead {
   background-image: url("../img/fun.jpg");
 }
 
+nav:not(:hover) ~ header.masthead {
+  background-image: url("../img/header-bg.jpg");
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 250px;
