@@ -7,6 +7,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #E8F0F3;
 }
 
 p {
@@ -215,6 +216,10 @@ nav:hover ~ header.masthead {
   background-image: url("../img/fun.jpg");
 }
 
+nav:not(:hover) ~ header.masthead {
+  background-image: url("../img/header-bg.jpg");
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 250px;
@@ -418,10 +423,18 @@ nav:hover ~ header.masthead {
 
 .modal-height {
   height: 100vh !important;
+  overflow: hidden;
 }
 
 .modal-image {
   max-height: 62vh !important;
+}
+
+.modal-pic-bottom-border {
+  margin: auto;
+  border-top: .5px solid black;
+  padding-top: 20px;
+  width: 75%;
 }
 
 @media (min-width: 767px) {
