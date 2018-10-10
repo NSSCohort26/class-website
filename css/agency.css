@@ -276,7 +276,7 @@ nav:hover ~ header.masthead {
   -webkit-animation: slide 30s linear infinite;
   animation: slide 30s linear infinite;
   width: 4800px;
-  height: 110px;
+  height: 150px;
 }
 
 @-webkit-keyframes slide {
