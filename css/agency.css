@@ -353,6 +353,7 @@ nav:hover ~ header.masthead {
 
 .modal-height {
   height: 100vh !important;
+  overflow: hidden;
 }
 
 .modal-image {
