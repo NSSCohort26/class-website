@@ -7,6 +7,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #E8F0F3;
 }
 
 p {
@@ -215,7 +216,35 @@ nav:hover ~ header.masthead {
   background-image: url("../img/fun.jpg");
 }
 
+nav:not(:hover) ~ header.masthead {
+  background-image: url("../img/header-bg.jpg");
+}
+
 @media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 250px;
+    padding-bottom: 50px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  header.masthead:hover {
+    background-image: url("../img/fun.jpg");
+  }
+}
+
+@media (min-width: 768px) and (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -233,6 +262,47 @@ nav:hover ~ header.masthead {
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+
+.devIcons {
+  height: 250px;
+}
+
+.wrapper {
+  overflow: hidden;
+  margin-top: 20px;
+  background-color: #E8F0F3;
+}
+
+#devIcons {
+  background-image: url("../img/iconImage.png");
+  background-repeat: repeat-x;
+  -webkit-animation: slide 30s linear infinite;
+  animation: slide 30s linear infinite;
+  width: 4800px;
+  height: 110px;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-2400px, 0, 0);
+    transform: translate3d(-2400px, 0, 0);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-2400px, 0, 0);
+    transform: translate3d(-2400px, 0, 0);
   }
 }
 
@@ -353,10 +423,18 @@ nav:hover ~ header.masthead {
 
 .modal-height {
   height: 100vh !important;
+  overflow: hidden;
 }
 
 .modal-image {
   max-height: 62vh !important;
+}
+
+.modal-pic-bottom-border {
+  margin: auto;
+  border-top: .5px solid black;
+  padding-top: 20px;
+  width: 75%;
 }
 
 @media (min-width: 767px) {
