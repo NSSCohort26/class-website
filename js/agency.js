@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top + 54)
+          scrollTop: ((target[0].id === "tech") ? target.offset().top -60 : target.offset().top + 54)
         }, 1000, "easeInOutExpo");
         return false;
       }

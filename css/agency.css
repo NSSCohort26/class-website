@@ -306,6 +306,11 @@ nav:not(:hover) ~ header.masthead {
   }
 }
 
+#tech {
+  padding: 0px;
+  background-color: #E8F0F3;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
