@@ -731,6 +731,10 @@ nav:not(:hover) ~ header.masthead {
   text-transform: none;
 }
 
+.Names {
+  color: rgb(46, 46, 124);
+}
+
 .team-member p {
   margin-top: 0;
 }
