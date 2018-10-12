@@ -467,10 +467,6 @@ nav:not(:hover) ~ header.masthead {
   margin-bottom: 15px;
 }
 
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
-}
-
 .portfolio-modal .modal-content p.item-intro {
   font-size: 16px;
   font-style: italic;
@@ -729,10 +725,6 @@ nav:not(:hover) ~ header.masthead {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
-}
-
-.Names {
-  color: rgb(46, 46, 124);
 }
 
 .team-member p {
