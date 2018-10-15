@@ -428,7 +428,8 @@ nav:not(:hover) ~ header.masthead {
 
 .modal-height {
   height: 100vh !important;
-  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .modal-image {
