@@ -449,13 +449,28 @@ nav:not(:hover) ~ header.masthead {
   }
 }
 
+@media (max-width: 767px) {
+  .modal-content {
+    width: 85vw !important;
+    margin: auto !important;
+  }
+  .modal-content h2 {
+    font-size: 1.8em !important;
+    margin-bottom: 15px !important;
+  }
+  .portfolio-modal .modal-dialog {
+    margin: 0 !important;
+    max-width: none !important;
+  }
+}
+
 .portfolio-modal {
   padding-right: 0px !important;
 }
 
 .portfolio-modal .modal-dialog {
   margin: auto;
-  max-width: 85vw;
+  max-width: 50vw;
 }
 
 .portfolio-modal .modal-content {
@@ -464,7 +479,7 @@ nav:not(:hover) ~ header.masthead {
 }
 
 .portfolio-modal .modal-content h2 {
-  font-size: 1.8em;
+  font-size: 3em;
   margin-bottom: 15px;
 }
 
