@@ -525,6 +525,11 @@ nav:not(:hover) ~ header.masthead {
   background-color: #212529;
 }
 
+.zero {
+  margin: 0px;
+  display: -webkit-inline-box;
+}
+
 .timeline {
   position: relative;
   padding: 0;
