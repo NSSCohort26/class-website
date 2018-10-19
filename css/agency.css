@@ -451,7 +451,7 @@ nav:not(:hover) ~ header.masthead {
 
 @media (max-width: 767px) {
   .modal-content {
-    width: 85vw !important;
+    width: 78vw !important;
     margin: auto !important;
   }
   .modal-content h2 {
